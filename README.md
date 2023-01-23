@@ -1,4 +1,4 @@
-# Surf Site
+# Surf's Up! Maui's Premium Surf Community
 by Deya Card
 
 <div align="center">
