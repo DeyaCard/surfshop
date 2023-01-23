@@ -1,3 +1,4 @@
+import React, { Component }  from 'react'
 import NavBar from "./NavBar"
 import Home from "./pages/Home"
 import Rentals from "./pages/Rentals"
