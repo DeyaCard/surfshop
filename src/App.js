@@ -6,16 +6,31 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={mainImage} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h2>Surf's Up</h2>  
+        <p>Maui's Premium Surf Community</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://808boards.com/rentals/?gclid=Cj0KCQiA_bieBhDSARIsADU4zLdTR3F89wqn-X68fGhjKY4lo17IYsLBiGJ_msDlbGKFwZ8cxQP1IJ8aAjePEALw_wcB"
           target="_blank"
           rel="noopener noreferrer"
         >
           Rentals
+        </a>
+        <a
+          className="App-link"
+          href="https://mauisurflessons.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Lessons
+        </a>
+        <a
+          className="App-link"
+          href="https://www.boardcave.com/shop/surfboards"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Shop
         </a>
       </header>
     </div>
