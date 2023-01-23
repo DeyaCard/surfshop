@@ -20,7 +20,7 @@ by Deya Card
 * JavaScript
 * VS Code
 * Node.js
-* Ant Design
+* 
 
 
 ## Setup/Installation:
