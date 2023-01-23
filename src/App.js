@@ -1,6 +1,10 @@
-import mainImage from './img/main.jpg';
-import './App.css';
-import NavBar from './NavBar';
+import NavBar from "./NavBar"
+import Home from "./pages/Home"
+import Rentals from "./pages/Rentals"
+import Lessons from "./pages/Lessons"
+import About from "./pages/About"
+import Shop from "./pages/Shop"
+import { Route, Routes } from "react-router-dom"
 
 
 function App() {
@@ -10,8 +14,10 @@ function App() {
       <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/" element={<Home />} />
+          <Route path="/rentals" element={<Rentals />} />
+          <Route path="/lessons" element={<Lessons />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/shop" element={<Shop />} />
         </Routes>
       </div>
     </>
