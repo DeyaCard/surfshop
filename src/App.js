@@ -6,6 +6,7 @@ import Lessons from "./pages/Lessons"
 import About from "./pages/About"
 import Shop from "./pages/Shop"
 import mainImage from "./img/main.jpg"
+import "./styles.css"
 import { Route, Routes } from "react-router-dom"
 
 
