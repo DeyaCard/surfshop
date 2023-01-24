@@ -5,12 +5,14 @@ import Rentals from "./pages/Rentals"
 import Lessons from "./pages/Lessons"
 import About from "./pages/About"
 import Shop from "./pages/Shop"
+import mainImage from "./img/main.jpg"
 import { Route, Routes } from "react-router-dom"
 
 
 function App() {
   return (
     <>
+    
       <NavBar />
       <div className="container">
         <Routes>
@@ -21,6 +23,10 @@ function App() {
           <Route path="/shop" element={<Shop />} />
         </Routes>
       </div>
+
+      <div className="main-image">
+      <img src={mainImage} />
+    </div>
     </>
   )
 }
