@@ -6,6 +6,10 @@ body {
     margin: 0; 
 }
 
+.font-link {
+    font-family: 'Manrope';
+}
+
 img {
     max-width: 100%;
 }

@@ -1,4 +1,4 @@
-import React, { Component }  from 'react'
+import React from 'react'
 import NavBar from "./NavBar"
 import Home from "./pages/Home"
 import Rentals from "./pages/Rentals"
@@ -7,6 +7,8 @@ import About from "./pages/About"
 import Shop from "./pages/Shop"
 import mainImage from "./img/main.jpg"
 import "./styles.css"
+import Footer from "./Footer"
+import "./App.css"
 import { Route, Routes } from "react-router-dom"
 
 
@@ -26,10 +28,16 @@ function App() {
       </div>
 
       <div className="main-image">
-      <img src={mainImage} />
-    </div>
+        <img src={mainImage} />
+      </div>
+
+      <div className="page-container">
+        <div className="content-wrap">
+        </div>
+        <Footer />
+      </div>
     </>
-  )
+  );
 }
 
 export default App;
