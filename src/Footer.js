@@ -1,58 +1,50 @@
-import React from "react";
-import "./Footer.css";
+import React from "react"
 
-function Footer() {
-  return (
-    <div className="main-footer">
-      <div className="container">
+const Footer = () => <footer className="page-footer font-small blue pt-4">
+    <div className="container-fluid text-center text-md-left">
         <div className="row">
-          {/* Column1 */}
-          <div className="col">
-            <h4>CONTACT</h4>
-            <ul className="list-unstyled">
-              <li>808-420-1981</li>
-              <li>LAHAINA, HA</li>
-              <li>123 WEST HIGHWAY RD</li>
-            </ul>
-          </div>
-          {/* Column2 */}
-          <div className="col">
-            <h4>SERVICES</h4>
-            <ul className="list-unstyled">
-              <li>RENTALS</li>
-              <li>LESSONS</li>
-              <li>PRIVATE</li>
-            </ul>
-          </div>
-          {/* Column3 */}
-          <div className="col">
-            <h4>ABOUT</h4>
-            <ul className="list-unstyled">
-              <li>SINCE 1981</li>
-              <li>CULTURE</li>
-              <li>COMMUNITY</li>
-            </ul>
-          </div>
-          {/* Column4 */}
-          <div className="col">
-            <h4>SOCIAL</h4>
-            <ul className="list-unstyled">
-              <li>INSTAGRAM</li>
-              <li>FACEBOOK</li>
-              <li>YOUTUBE</li>
-            </ul>
-          </div>
+            <div className="col-md-6 mt-md-0 mt-3">
+                <h5 className="text-uppercase">SOCIAL</h5>
+                <p>Here you can use rows and columns to organize your footer content.</p>
+            </div>
+
+            <hr className="clearfix w-100 d-md-none pb-0"/>
+
+            <div className="col-md-3 mb-md-0 mb-3">
+                <h5 className="text-uppercase">ABOUT</h5>
+                <ul className="list-unstyled">
+                    <li><a href="#!">SINCE 1981</a></li>
+                    <li><a href="#!">OUR MISSION</a></li>
+                    <li><a href="#!">MEET OUR TEAM</a></li>
+                    <li><a href="#!">ANNUAL SURF REPORT</a></li>
+                </ul>
+            </div>
+
+            <div className="col-md-3 mb-md-0 mb-3">
+                <h5 className="text-uppercase">LOCATION</h5>
+                <ul className="list-unstyled">
+                    <li><a href="#!">123 WEST MAUI RD</a></li>
+                    <li><a href="#!">LAHAINA, HI</a></li>
+                    <li><a href="#!">808-420-1981</a></li>
+                </ul>
+            </div>
+
+            <div className="col-md-3 mb-md-0 mb-3">
+                <h5 className="text-uppercase">SERVICES</h5>
+                <ul className="list-unstyled">
+                    <li><a href="#!">RENTALS</a></li>
+                    <li><a href="#!">LESSONS</a></li>
+                    <li><a href="#!">PRIVATE</a></li>
+                    <li><a href="#!">SHOP</a></li>
+                </ul>
+            </div>
         </div>
-        <hr />
-        <div className="row">
-          <p className="col-sm">
-            &copy;{new Date().getFullYear()} SURF'S UP INC | All rights reserved |
-            Terms Of Service | Privacy
-          </p>
-        </div>
-      </div>
     </div>
-  );
-}
 
-export default Footer;
+    <div className="footer-copyright text-center py-3">© 2023 Copyright:
+        <a> SURF'S UP INC</a>
+    </div>
+
+</footer>
+
+export default Footer
