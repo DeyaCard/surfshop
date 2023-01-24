@@ -62,4 +62,11 @@ img {
 background-color: lightblue;
 }
 
-
+.main-footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+}
