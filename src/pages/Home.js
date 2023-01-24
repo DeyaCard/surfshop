@@ -1,5 +1,6 @@
-import React, { Component }  from 'react';
+import React from 'react';
+
 
 export default function Shop() {
-    return <h1>Shop</h1>
+    return <h1>Maui's Premier Surf Community</h1>
 }

@@ -1,5 +1,5 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
-import React, { Component }  from 'react';
+import React from 'react';
 
 
 export default function NavBar() {
@@ -11,6 +11,7 @@ export default function NavBar() {
             <ul>
                 <CustomLink to="/rentals">Rentals</CustomLink>
                 <CustomLink to="/lessons">Lessons</CustomLink>
+                <CustomLink to="/about">About</CustomLink>
                 <CustomLink to="/shop">Shop</CustomLink>
             </ul>
         </nav>
